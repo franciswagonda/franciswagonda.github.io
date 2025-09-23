@@ -17,4 +17,6 @@ if (header) {
 }
 
 // Console message
-console.log("Welcome to Wagonda Francis Precious' Portfolio Website!");
+console.log("Welcome to my Portfolio Website! ");
+console.log("Feel free to explore my projects and get in touch!");
+console.log("Thank you for visiting😊");
