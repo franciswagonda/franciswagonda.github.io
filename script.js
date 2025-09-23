@@ -1,6 +1,19 @@
 
-
 themeBtn.innerHTML = '<i class="fa fa-moon"></i>';
+
+// Profile image hover effect
+const profilePic = document.querySelector('.profile-pic');
+if (profilePic) {
+  profilePic.addEventListener('mouseenter', () => {
+    profilePic.style.boxShadow = '0 0 32px 8px #00bcd4cc';
+    profilePic.style.transform = 'scale(1.07)';
+    profilePic.style.transition = 'all 0.3s';
+  });
+  profilePic.addEventListener('mouseleave', () => {
+    profilePic.style.boxShadow = '0 4px 24px rgba(0,188,212,0.15)';
+    profilePic.style.transform = 'scale(1)';
+  });
+}
 
 // Dynamic greeting based on time
 const header = document.getElementById('home');
@@ -17,6 +30,4 @@ if (header) {
 }
 
 // Console message
-console.log("Welcome to my Portfolio Website! ");
-console.log("Feel free to explore my projects and get in touch!");
-console.log("Thank you for visiting😊");
+console.log("Welcome to Wagonda Francis Precious' Portfolio Website!");
