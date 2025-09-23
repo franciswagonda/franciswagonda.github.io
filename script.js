@@ -1,6 +1,31 @@
 
 themeBtn.innerHTML = '<i class="fa fa-moon"></i>';
 
+
+// Smooth scroll effect for navigation
+document.querySelectorAll("nav a").forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href"))
+      .scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+// Animated section reveal on scroll
+const sections = document.querySelectorAll('section, header');
+const revealSection = () => {
+  const triggerBottom = window.innerHeight * 0.85;
+  sections.forEach(section => {
+    const sectionTop = section.getBoundingClientRect().top;
+    if (sectionTop < triggerBottom) {
+      section.style.opacity = 1;
+      section.style.transform = 'translateY(0)';
+    }
+  });
+};
+window.addEventListener('scroll', revealSection);
+window.addEventListener('DOMContentLoaded', revealSection);
+
 // Profile image hover effect
 const profilePic = document.querySelector('.profile-pic');
 if (profilePic) {
