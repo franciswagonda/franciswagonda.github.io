@@ -1,7 +1,3 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +5,12 @@
 }
 
 :root {
-  --primary-color: #00bcd4; /* Teal Accent */
-  --secondary-color: #ff4081; /* Pink/Magenta for contrast */
-  --background-color: #121212; /* Darker Background */
-  --surface-color: #1e1e1e; /* Slightly Lighter Surface */
-  --text-color: #e0e0e0; /* Brighter Text */
-  --text-secondary-color: #b0b0b0; /* Lighter Secondary Text */
+  --primary-color: #00bcd4;
+  --secondary-color: #ff4081;
+  --background-color: #121212; 
+  --surface-color: #1e1e1e; 
+  --text-color: #e0e0e0; 
+    --text-secondary-color: #b0b0b0; 
   --border-color: #333;
 }
 
@@ -81,8 +77,11 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   padding: 40px 20px;
+}
+
+.hero-content {
+  text-align: center;
 }
 
 .hero-section h1 {
@@ -168,11 +167,17 @@ a:hover {
   border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-img-top {
+  height: 250px;
+  object-fit: cover;
 }
 
 .project-card .card-body {
@@ -184,6 +189,10 @@ a:hover {
     font-weight: 600;
     margin-bottom: 1rem;
     color: var(--primary-color);
+}
+
+.project-card .card-text {
+  color: #fff;
 }
 
 /* Contact Section */
@@ -220,6 +229,10 @@ a:hover {
     box-shadow: 0 0 0 0.25rem rgba(0, 188, 212, 0.25);
 }
 
+.form-control::placeholder {
+  color: #999;
+}
+
 .input-group-text {
     background-color: var(--background-color);
     border: 1px solid var(--border-color);
@@ -232,4 +245,38 @@ footer {
   padding: 2rem 0;
   text-align: center;
   border-top: 1px solid var(--border-color);
+}
+
+/* Social Media Buttons */
+.btn-linkedin {
+    background-color: #0077b5;
+    color: #fff;
+    border-color: #0077b5;
+}
+
+.btn-linkedin:hover {
+    background-color: #005582;
+    border-color: #005582;
+}
+
+.btn-github {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.btn-github:hover {
+    background-color: #222;
+    border-color: #222;
+}
+
+.btn-twitter {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.btn-twitter:hover {
+    background-color: #111;
+    border-color: #111;
 }
