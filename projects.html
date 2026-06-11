@@ -1,155 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Explore my portfolio of web development projects including UCU Innovators Hub, RIA AI Assistant, and more. Built with Python, Django, JavaScript, and React.">
-  <meta name="keywords" content="Projects, Portfolio, Web Development, Python, Django, React, AI Assistant">
-
-  <title>Projects - Wagonda Francis Precious</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Wagonda Francis Precious</title>
+    <meta name="description" content="Explore the projects and software developed by Wagonda Francis Precious.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="container">
-      <h2 class="fade-in">My Projects</h2>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up">
-          <div class="card project-card">
-            <img src="assets/images/projects/innovators hub.png" class="card-img-top"
-              alt="UCU Innovators Hub">
-            <div class="card-body">
-              <h5 class="card-title">UCU Innovators Hub</h5>
-              <p class="card-text">A centralized platform to document, showcase, and manage all innovative projects
-                created by students at Uganda Christian University.</p>
-              <div class="mb-3">
-                <span class="tech-tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
-                <span class="tech-tag"><i class="devicon-sequelize-plain"></i> Sequelize ORM</span>
-                <span class="tech-tag"><i class="devicon-mysql-plain"></i> MySQL</span>
-              </div>
-              <div class="d-flex gap-2">
-                <a href="https://github.com/franciswagonda/frontend" class="btn btn-primary btn-sm">Frontend</a>
-                <a href="https://github.com/franciswagonda/Backend-" class="btn btn-primary btn-sm">Backend</a>
-              </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">ADG.</a>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up">
-          <div class="card project-card">
-            <img src="assets/images/projects/GCDL.png" class="card-img-top" alt="GCDL">
-            <div class="card-body">
-              <h5 class="card-title">GCDL</h5>
-              <p class="card-text">A comprehensive web application with role-based authentication system for CEO,
-                Manager, and Sales Agent users.</p>
-              <div class="mb-3">
-                <span class="tech-tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
-                <span class="tech-tag"><i class="devicon-react-original"></i> React</span>
-                <span class="tech-tag"><i class="devicon-nodejs-plain"></i> Node.js</span>
-              </div>
-              <div class="d-flex gap-2">
-                <a href="https://github.com/KayembaIsaacFrank/Frontend" class="btn btn-primary btn-sm">Frontend</a>
-                <a href="https://github.com/KayembaIsaacFrank/Backend" class="btn btn-primary btn-sm">Backend</a>
-              </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up">
-          <div class="card project-card">
-            <video src="assets/images/projects/Ria_Ai.mp4" class="card-img-top" controls></video>
-            <div class="card-body">
-              <h5 class="card-title">RIA AI Assistant</h5>
-              <p class="card-text">An AI-powered desktop assistant built using Python that helps users with information,
-                scheduling, and productivity tasks.</p>
-              <div class="mb-3">
-                <span class="tech-tag"><i class="devicon-python-plain"></i> Python</span>
-              </div>
-              <a href="https://github.com/franciswagonda/Ria-project" class="btn btn-primary">View Project</a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-          </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up">
-          <div class="card project-card">
-            <img src="assets/images/projects/project2.png" class="card-img-top" alt="School Project Work">
-            <div class="card-body">
-              <h5 class="card-title">School Project Work</h5>
-              <p class="card-text">A collection of Python projects from my coursework, demonstrating my understanding of
-                core programming concepts and algorithms.</p>
-              <div class="mb-3">
-                <span class="tech-tag"><i class="devicon-python-plain"></i> Python</span>
-              </div>
-              <a href="https://github.com/franciswagonda/Structured-programming--bsit" class="btn btn-primary">View
-                Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4 fade-in-up">
-          <div class="card project-card">
-            <img src="assets/images/projects/project3.png" class="card-img-top" alt="Agricultural Processing system">
-            <div class="card-body">
-              <h5 class="card-title">Agricultural Processing System</h5>
-              <p class="card-text">A comprehensive system handling day-to-day processes of an agricultural company,
-                built with modern web technologies.</p>
-              <div class="mb-3">
-                <span class="tech-tag"><i class="devicon-django-plain"></i> Django</span>
-                <span class="tech-tag"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
-                <span class="tech-tag"><i class="devicon-python-plain"></i> Python</span>
-              </div>
-              <a href="#" class="btn btn-primary disabled">Coming Soon</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <section class="text-center py-5">
-    <div class="container">
-      <h2>Interested in working together?</h2>
-      <p class="lead text-secondary-color">Let's build something great. Get in touch with me.</p>
-      <a href="contact.html" class="btn btn-primary btn-lg">Get in Touch</a>
-    </div>
-  </section>
+    <section class="projects" style="padding-top: 150px;">
+        <div class="container reveal active">
+            <span class="section-label">01 — Projects</span>
+            <h2 class="section-title">My Projects</h2>
+            <p style="color: var(--text-muted); margin-bottom: 3rem; font-size: 1.2rem; max-width: 600px;">
+                A showcase of the web applications, AI tools, and coursework projects I have built across different stacks.
+            </p>
+            
+            <div class="project-list">
 
-  <footer class="text-center py-4">
-    <p>© 2025 Wagonda Francis Precious | Portfolio </p>
-  </footer>
+                <!-- Project 01 -->
+                <div class="project-row">
+                    <span class="project-num">01</span>
+                    <div class="project-body">
+                        <div class="project-info">
+                            <h3 class="project-title">UCU Innovators Hub</h3>
+                            <p class="project-desc">
+                                A centralized platform to document, showcase, and manage all innovative projects created by students at Uganda Christian University.
+                            </p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>Sequelize ORM</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-action">
+                            <a href="https://github.com/franciswagonda/frontend" class="project-link">Frontend <i class="fas fa-arrow-right"></i></a>
+                            <a href="https://github.com/franciswagonda/Backend-" class="project-link">Backend <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
+                <!-- Project 02 -->
+                <div class="project-row">
+                    <span class="project-num">02</span>
+                    <div class="project-body">
+                        <div class="project-info">
+                            <h3 class="project-title">GCDL</h3>
+                            <p class="project-desc">
+                                A comprehensive web application with role-based authentication system for CEO, Manager, and Sales Agent users.
+                            </p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                        <div class="project-action">
+                            <a href="https://github.com/KayembaIsaacFrank/Frontend" class="project-link">Frontend <i class="fas fa-arrow-right"></i></a>
+                            <a href="https://github.com/KayembaIsaacFrank/Backend" class="project-link">Backend <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 03 -->
+                <div class="project-row">
+                    <span class="project-num">03</span>
+                    <div class="project-body">
+                        <div class="project-info">
+                            <h3 class="project-title">RIA AI Assistant</h3>
+                            <p class="project-desc">
+                                An AI-powered desktop assistant built using Python that helps users with information, scheduling, and productivity tasks.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="project-action">
+                            <a href="https://github.com/franciswagonda/Ria-project" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 04 -->
+                <div class="project-row">
+                    <span class="project-num">04</span>
+                    <div class="project-body">
+                        <div class="project-info">
+                            <h3 class="project-title">School Project Work</h3>
+                            <p class="project-desc">
+                                A collection of Python projects from my coursework, demonstrating my understanding of core programming concepts and algorithms.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="project-action">
+                            <a href="https://github.com/franciswagonda/Structured-programming--bsit" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 05 -->
+                <div class="project-row">
+                    <span class="project-num">05</span>
+                    <div class="project-body">
+                        <div class="project-info">
+                            <h3 class="project-title">Agricultural Processing System</h3>
+                            <p class="project-desc">
+                                A comprehensive system handling day-to-day processes of an agricultural company, built with modern web technologies.
+                            </p>
+                            <div class="project-tags">
+                                <span>Django</span>
+                                <span>PostgreSQL</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="project-action">
+                            <a href="#" class="project-link" aria-disabled="true">Coming Soon <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="more-in-progress">
+                <div class="spinner"></div>
+                <h3>More In Progress</h3>
+                <p>Constantly building and learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
-
 </html>
